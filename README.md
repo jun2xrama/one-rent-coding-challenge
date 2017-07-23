@@ -14,10 +14,10 @@ If you can build this simple app and get it to us within the next week, we can m
 Let me know if you have any questions--we're excited about the potential of having you on the team!
 
 ## Technologies:
-NodeJS 6.11.1
-ReactJS via create-react-app
-Express
-Reactstrap
+* NodeJS 6.11.1
+* ReactJS via create-react-app (webpack + babel)
+* Express
+* Reactstrap
 
 ## Assumptions:
 Was unable to find images[] and "rent price" property as mentioned so I used the defaultImages[] and targetRent properties instead as it was the closest I could find.
