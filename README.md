@@ -1,4 +1,4 @@
-#Onerent coding challenge
+# Onerent coding challenge
 
 We've recently added machine learning image tagging via the Google Cloud Vision API. Set up a simple app that allows people to search our available properties by image tags. Here's how it should look:
 
@@ -13,20 +13,20 @@ If you can build this simple app and get it to us within the next week, we can m
 
 Let me know if you have any questions--we're excited about the potential of having you on the team!
 
-#Technologies:
+## Technologies:
 NodeJS 6.11.1
 ReactJS via create-react-app
 Express
 Reactstrap
 
-#Assumptions:
+## Assumptions:
 Was unable to find images[] and "rent price" property as mentioned so I used the defaultImages[] and targetRent properties instead as it was the closest I could find.
 
-#Install dependencies:
+## Install dependencies:
 $ npm install && cd client && npm install
 
-#To run Development mode (slower due to caching):
+## To run Development mode (slower due to caching):
 $ npm run start
 
-#To run Production mode:
+## To run Production mode:
 $ npm run start-production
