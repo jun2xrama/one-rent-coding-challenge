@@ -1,0 +1,30 @@
+{
+  "name": "onerent-coding-challenge",
+  "version": "1.0.0",
+  "description": "Onerent coding challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start-production": "SET NODE_ENV=production & node server.js",
+    "server": "node server.js",
+    "client": "node start-client.js",    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Luciano G. Rama III",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.14.0",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "concurrently": "3.1.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.9.0"
+  }
+}
