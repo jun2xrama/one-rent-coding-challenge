@@ -7,7 +7,10 @@ const request = require('request');
 app.set('port', process.env.PORT || 3001);
 
 // issues in windows
-const env = process.env.NODE_ENV.trim();
+let env = 'development';
+if (process.env.NODE_ENV) {
+  env = process.env.NODE_ENV.trim();
+}
 
 // Express only serves static assets in production
 if (env === 'production') {
