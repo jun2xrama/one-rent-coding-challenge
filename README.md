@@ -13,7 +13,7 @@ If you can build this simple app and get it to us within the next week, we can m
 
 Let me know if you have any questions--we're excited about the potential of having you on the team!
 
-## Technologies:
+## Main Technologies:
 * NodeJS 6.11.1
 * ReactJS via create-react-app (webpack + babel)
 * Express
@@ -26,7 +26,9 @@ Was unable to find images[] and "rent price" property as mentioned so I used the
 $ npm install && cd client && npm install
 
 ## To run Development mode (slower due to caching):
-$ npm run start
+$ npm run start (make sure your in the project root directory)
 
 ## To run Production mode:
-$ npm run start-production
+$ npm run start-production (make sure your in the project root directory)
+
+Open http://localhost:3001/ in the browser.
